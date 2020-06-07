@@ -1,6 +1,9 @@
 body {
   background-color: #e5e5e5;
 }
+:root {
+  --hover-focus-color: tomato;
+}
 .logo {
   width: 153px;
   height: 31px;
@@ -18,7 +21,7 @@ body {
 }
 .logo:hover,
 .logo:focus {
-  color: tomato;
+  color: var(--hover-focus-color);
 }
 /* site-nav */
 .site-nav a {
@@ -26,7 +29,7 @@ body {
 }
 .site-nav a:hover,
 .site-nav a:focus {
-  color: tomato;
+  color: var(--hover-focus-color);
 }
 .site-nav {
 }
@@ -61,7 +64,7 @@ body {
 }
 .contact-nav-envelope a:hover,
 .contact-nav-envelope a:focus {
-  color: tomato;
+  color: var(--hover-focus-color);
 }
 .contact-nav-envelope {
   font-family: "Roboto";
@@ -76,7 +79,7 @@ body {
 }
 .contact-nav-telephone a:hover,
 .contact-nav-telephone a:focus {
-  color: tomato;
+  color: var(--hover-focus-color);
 }
 .contact-nav-telephone {
   font-family: "Roboto";
@@ -117,7 +120,7 @@ body {
 }
 .to-order-service a:hover,
 .to-order-service a:focus {
-  color: tomato;
+  color: var(--hover-focus-color);
 }
 .qualities {
   font-family: "Roboto";
@@ -181,7 +184,7 @@ body {
 /* ПОРТФОЛИО */
 .bottom:hover,
 .bottom:focus {
-  color: tomato;
+  color: var(--hover-focus-color);
 }
 .bottom {
   font-family: "Roboto";
@@ -193,7 +196,7 @@ body {
 }
 .my-project:hover,
 .my-project:focus {
-  color: tomato;
+  color: var(--hover-focus-color);
 }
 .my-project {
   font-family: "Roboto";
@@ -237,7 +240,7 @@ body {
 }
 .e-mail:hover,
 .e-mail:focus {
-  color: tomato;
+  color: var(--hover-focus-color);
 }
 .e-mail {
   ont-family: "Roboto";
@@ -252,7 +255,7 @@ body {
 }
 .subscribe:hover,
 .subscribe:focus {
-  color: tomato;
+  color: var(--hover-focus-color);
 }
 .subscribe {
   font-family: "Roboto";
