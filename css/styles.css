@@ -229,8 +229,6 @@ body {
 }
 .section-our-work {
   display: flex;
-  margin-right: 500px;
-  margin-left: 500px;
   background-color: #f5f4fa;
 }
 .section-our-work: li {
@@ -275,6 +273,66 @@ body {
   line-height: 19px;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.our-team {
+  margin-left: 500px;
+  margin-right: 500px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-align: center;
+}
+.f {
+  margin-left: 215px;
+  margin-right: 215px;
+  padding-left: 0px;
+  padding-right: 0px;
+  outline: 2px solid tomato;
+}
+.section-our-work li {
+  margin-right: 50px;
+  outline: 2px solid tomato;
+}
+.our-client {
+  margin-left: 250px;
+  margin-right: 250px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-align: center;
+}
+.our-client2 {
+  margin-left: 215px;
+  margin-right: 215px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.e {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  outline: 2px solid tomato;
+}
+.e li {
+  margin-right: 50px;
+  outline: 2px solid tomato;
+}
+.client-logo {
+  display: inline-block;
+  width: 170px;
+  height: 90px;
+  padding-top: 20px;
+  text-align: center;
 }
 /* ПОРТФОЛИО */
 .bottom:hover,
