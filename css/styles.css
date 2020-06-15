@@ -6,21 +6,18 @@ body {
 }
 .page-header {
   background-color: white;
-  width: 1600px;
 }
 .conteiner-header {
-  margin-left: 215px;
-  margin-right: 215px;
-  padding-top: 80px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
   width: 1200px;
   outline: 2px solid tomato;
 }
 .logo {
-  position: absolute;
-  width: 153px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
   width: 153px;
   height: 31px;
   font-family: "Raleway";
@@ -40,33 +37,28 @@ body {
   color: var(--hover-focus-color);
 }
 /* site-nav */
+.site-nav {
+  display: flex;
+  padding-left: 0px;
+  margin-left: 80px;
+}
+.site-nav .item {
+  display: flex;
+  outline: 2px solid tomato;
+  margin-right: 50px;
+}
+.site-nav .item:last-child {
+  margin-right: 0;
+}
+.site-nav .item:first-child {
+  margin-left: 0;
+}
 .site-nav a {
   color: #2196f3;
 }
 .site-nav a:hover,
 .site-nav a:focus {
   color: var(--hover-focus-color);
-}
-.site-nav-1 {
-  position: absolute;
-  width: 49px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
-}
-.site-nav-2 {
-  position: absolute;
-  width: 77px;
-  height: 16px;
-  left: 552px;
-  top: 32px;
-}
-.site-nav-3 {
-  position: absolute;
-  width: 68px;
-  height: 16px;
-  left: 679px;
-  top: 32px;
 }
 
 .studio {
@@ -94,7 +86,12 @@ body {
   letter-spacing: 0.02em;
 }
 /* contact-nav-envelope&telephone */
-
+.contact-nav {
+  display: flex;
+  outline: 2px solid tomato;
+  margin-left: 310px;
+  margin-right: 0px;
+}
 .contact-nav-envelope a {
   color: #2196f3;
 }
@@ -103,12 +100,6 @@ body {
   color: var(--hover-focus-color);
 }
 .contact-nav-envelope {
-  position: absolute;
-  width: 161px;
-  height: 16px;
-  left: 1052px;
-  top: 32px;
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -124,12 +115,7 @@ body {
   color: var(--hover-focus-color);
 }
 .contact-nav-telephone {
-  position: absolute;
-  width: 142px;
-  height: 16px;
-  left: 1243px;
-  top: 32px;
-
+  margin-left: 30px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -139,26 +125,19 @@ body {
 }
 /* hero */
 .hero-img {
-  position: absolute;
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
 }
 .a {
-  outline: 2px solid tomato;
-  position: absolute;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+  padding-right: 0px;
   width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
+  outline: 2px solid tomato;
 }
 .hero {
-  position: absolute;
-  width: 696px;
-  height: 120px;
-  left: 452px;
-  top: 180px;
+  margin-top: 0px;
+  margin-bottom: 30px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
@@ -170,16 +149,6 @@ body {
   color: white;
 }
 .to-order-service {
-  margin-top: 45px;
-  padding: 10px 32px;
-  color: white;
-  background-color: #2196f3;
-  border-radius: 6px;
-  position: absolute;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 330px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
@@ -189,6 +158,9 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  border-radius: 4px;
+  background-color: #2196f3;
+  padding: 10px 34px;
 }
 .to-order-service a:hover,
 .to-order-service a:focus {
@@ -196,8 +168,17 @@ body {
 }
 .b {
   outline: 2px solid tomato;
-  margin-top: 600px;
 }
+
+.antenna {
+}
+.clock {
+}
+.diagram {
+}
+.astronaut {
+}
+
 .qualities {
   font-family: "Roboto";
   font-style: normal;
