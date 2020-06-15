@@ -368,10 +368,12 @@ body {
 }
 /* FOOTER */
 .footer {
-  display: flex;
   height: 250px;
   width: 1600px;
   background-color: #2f303a;
+}
+.footerDiv {
+  display: flex;
 }
 .footer-one {
   margin-left: 215px;
@@ -437,7 +439,9 @@ body {
 }
 
 .footer-four {
-  margin-top: 210px;
+  display: block;
+  clear: both;
+  margin-top: 0px;
   text-align: center;
 }
 .join {
@@ -492,8 +496,17 @@ body {
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
+  text-align: center;
   font-size: 12px;
   line-height: 24px;
   letter-spacing: 0.03em;
+  border-top: 1px solid rgb(189, 40, 40);
   color: rgba(255, 255, 255, 0.4);
+}
+.conteiner {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
