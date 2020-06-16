@@ -177,6 +177,9 @@ body {
   outline: 2px solid tomato;
   margin-right: 50px;
 }
+.section li:last-child {
+  margin-right: 0;
+}
 .qualities {
   font-family: "Roboto";
   font-style: normal;
@@ -316,10 +319,7 @@ body {
 .e {
   display: flex;
   justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
   padding-left: 0px;
-  padding-right: 0px;
   outline: 2px solid tomato;
   list-style: none;
 }
@@ -328,7 +328,7 @@ body {
   outline: 2px solid tomato;
 }
 .client-logo {
-  display: inline-block;
+  /* display: inline-block; */
   width: 170px;
   height: 90px;
   padding-top: 20px;
@@ -370,6 +370,7 @@ body {
 }
 /* FOOTER */
 .footer {
+  margin: auto;
   height: 250px;
   width: 1600px;
   background-color: #2f303a;
