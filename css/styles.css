@@ -171,20 +171,12 @@ body {
   margin-left: 215px;
   margin-right: 215px;
   text-align: center;
+  list-style: none;
 }
 .section li {
   outline: 2px solid tomato;
   margin-right: 50px;
 }
-.antenna {
-}
-.clock {
-}
-.diagram {
-}
-.astronaut {
-}
-
 .qualities {
   font-family: "Roboto";
   font-style: normal;
@@ -217,6 +209,8 @@ body {
 }
 .d {
   display: flex;
+  justify-content: space-between;
+  list-style: none;
   outline: 2px solid tomato;
   margin-left: 215px;
   margin-right: 215px;
@@ -225,12 +219,18 @@ body {
 }
 .d li {
   outline: 2px solid tomato;
-  margin-right: 50px;
 }
 .section-our-work {
   display: flex;
+  justify-content: space-between;
   background-color: #f5f4fa;
   text-align: center;
+  list-style: none;
+  padding-left: 0px;
+  margin-right: 0;
+}
+.section-our-work li:last-child {
+  margin-right: 0;
 }
 .our-work {
   margin-top: 0;
@@ -315,11 +315,13 @@ body {
 }
 .e {
   display: flex;
+  justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
   padding-left: 0px;
   padding-right: 0px;
   outline: 2px solid tomato;
+  list-style: none;
 }
 .e li {
   margin-right: 50px;
@@ -437,7 +439,6 @@ body {
   margin-top: 40px;
   padding-top: 54px;
 }
-
 .footer-four {
   display: block;
   clear: both;
