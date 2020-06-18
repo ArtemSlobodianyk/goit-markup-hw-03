@@ -131,7 +131,7 @@ body {
   letter-spacing: 0.02em;
 }
 /* hero */
-.a {
+.hero {
   background: url(../images/Header.png);
   width: 1600px;
   height: 600px;
@@ -140,7 +140,7 @@ body {
   margin-bottom: 94px;
   outline: 2px solid tomato;
 }
-.hero {
+.hero-title {
   padding-top: 200px;
   margin-bottom: 30px;
   font-family: "Roboto";
@@ -171,7 +171,7 @@ body {
 .to-order-service a:focus {
   color: var(--hover-focus-color);
 }
-.b {
+.skills {
   margin-left: 200px;
   margin-right: 200px;
   display: block;
@@ -210,7 +210,7 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
-.c {
+.our-work-main {
   margin-top: 100px;
   margin-left: 400px;
   margin-right: 400px;
@@ -220,7 +220,7 @@ body {
   padding-bottom: 0px;
   text-align: center;
 }
-.d {
+.list-our-work {
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -230,7 +230,7 @@ body {
   padding-left: 0px;
   text-align: center;
 }
-.d li {
+.list-our-work li {
   outline: 2px solid tomato;
 }
 .section-our-work {
@@ -300,7 +300,7 @@ body {
   color: #212121;
   text-align: center;
 }
-.f {
+.our-team-main {
   margin-left: 200px;
   margin-right: 200px;
   padding-left: 0px;
@@ -323,20 +323,20 @@ body {
   color: #212121;
   text-align: center;
 }
-.our-client2 {
+.our-client-main {
   margin-left: 200px;
   margin-right: 200px;
   padding-left: 0px;
   padding-right: 0px;
 }
-.e {
+.list-our-client {
   display: flex;
   justify-content: space-between;
   padding-left: 0px;
   outline: 2px solid tomato;
   list-style: none;
 }
-.e li {
+.list-our-client li {
   outline: 2px solid tomato;
 }
 .client-logo {
