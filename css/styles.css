@@ -1,6 +1,6 @@
 body {
   width: 1600px;
-  background-color: #e5e5e5;
+  background-color: #FFFFFF;
 }
 :root {
   --hover-focus-color: tomato;
@@ -22,7 +22,7 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   width: 1200px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 .logo {
   width: 153px;
@@ -51,7 +51,7 @@ body {
 }
 .site-nav .item {
   display: flex;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
   margin-right: 50px;
 }
 .site-nav .item:last-child {
@@ -95,7 +95,7 @@ body {
 /* contact-nav-envelope&telephone */
 .contact-nav {
   display: flex;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
   margin-left: 310px;
   margin-right: 0px;
 }
@@ -138,7 +138,7 @@ body {
   margin: auto;
   text-align: center;
   margin-bottom: 94px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 .hero-title {
   padding-top: 200px;
@@ -175,7 +175,7 @@ body {
   margin-left: 200px;
   margin-right: 200px;
   display: block;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
 }
 .section {
   display: flex;
@@ -185,13 +185,22 @@ body {
   list-style: none;
 }
 .section li {
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
   margin-right: 50px;
 }
 .section li:last-child {
   margin-right: 0;
 }
+.skills-img {
+  height: 120px;
+  background-color: #f5f4fa;
+  text-align: center;
+  padding: 21px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
 .qualities {
+  text-align: left;
   font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
@@ -202,6 +211,7 @@ body {
   color: #212121;
 }
 .qualities2 {
+  text-align: left;
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
@@ -211,44 +221,10 @@ body {
   color: #757575;
 }
 .our-work-main {
-  margin-top: 100px;
-  margin-left: 400px;
-  margin-right: 400px;
-  padding-left: 250px;
-  padding-right: 250px;
-  padding-top: 40px;
-  padding-bottom: 0px;
-  text-align: center;
-}
-.list-our-work {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  outline: 2px solid tomato;
-  margin-left: 200px;
-  margin-right: 200px;
-  padding-left: 0px;
-  text-align: center;
-}
-.list-our-work li {
-  outline: 2px solid tomato;
-}
-.section-our-work {
-  display: flex;
-  justify-content: space-between;
-  background-color: #f5f4fa;
-  text-align: center;
-  list-style: none;
-  padding-left: 0px;
-  margin-right: 0;
-}
-.section-our-work li:last-child {
-  margin-right: 0;
+  margin-top: 200px;
 }
 .our-work {
-  width: 400px;
-  margin-top: 0;
-  margin-bottom: 50px;
+  margin: 0;
   font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
@@ -258,7 +234,54 @@ body {
   color: #212121;
   text-align: center;
 }
+.heading-our-work {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-align: center;
+}
+.list-our-work {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  /* outline: 2px solid tomato; */
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-left: 0px;
+  text-align: center;
+}
+.list-our-work li {
+  /* outline: 2px solid tomato; */
+}
+.unlist-our-team {
+  margin: auto;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f4fa;
+  text-align: center;
+  list-style: none;
+  padding-left: 0px;
+}
+.unlist-our-team li:last-child {
+  margin-right: 0;
+}
+.unlist-our-team li {
+  /* outline: 2px solid tomato; */
+}
+.list-our-team {
+  background: #edeeea;
+}
 .our-work2 {
+  margin-top: 0px;
+  background-color: rgba(47, 48, 58, 0.8);
+  padding-top: 27px;
+  width: 370px;
+  height: 70px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
@@ -286,11 +309,14 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
-.our-team {
-  margin-bottom: 50px;
+.our-team-main {
   margin-top: 200px;
-  margin-left: 500px;
-  margin-right: 500px;
+}
+.our-team {
+  margin: 0;
+  background-color: #F5F4FA;
+  height: 700px;
+  padding-top: 50px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
@@ -300,20 +326,23 @@ body {
   color: #212121;
   text-align: center;
 }
-.our-team-main {
-  margin-left: 200px;
-  margin-right: 200px;
-  padding-left: 0px;
-  padding-right: 0px;
-  outline: 2px solid tomato;
+.heading-our-team {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-align: center;
 }
-.section-our-work li {
-  outline: 2px solid tomato;
+
+.our-client-main {
+  margin-top: 200px;
 }
 .our-client {
-  margin-top: 200px;
-  margin-left: 250px;
-  margin-right: 250px;
+  width: 1200px;
+  margin: auto;
   font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
@@ -323,24 +352,27 @@ body {
   color: #212121;
   text-align: center;
 }
-.our-client-main {
-  margin-left: 200px;
-  margin-right: 200px;
-  padding-left: 0px;
-  padding-right: 0px;
+.heading-our-client {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-align: center;
 }
 .list-our-client {
   display: flex;
   justify-content: space-between;
   padding-left: 0px;
-  outline: 2px solid tomato;
+  /* outline: 2px solid tomato; */
   list-style: none;
 }
-.list-our-client li {
+/* .list-our-client li { */
   outline: 2px solid tomato;
 }
 .client-logo {
-  /* display: inline-block; */
   width: 170px;
   height: 90px;
   padding-top: 20px;
