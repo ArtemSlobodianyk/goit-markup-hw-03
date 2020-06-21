@@ -384,12 +384,71 @@ body {
   color: var(--hover-focus-color);
 }
 .bottom {
+  display: inline-block;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
   color: #212121;
+  padding: 6px 22px;
+  min-width: 110px;
+}
+.main-site-nav-portfolio {
+  margin-top: 90px;
+}
+.site-nav-portfolio {
+display: flex;
+list-style: none;
+width: 1000px;
+margin: auto;
+}
+.site-nav-portfolio .item-portfolio {
+  margin-right: 10px;
+  border-radius: 4px;
+  background-color: #2196f3;
+  padding: 6px 22px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.site-nav-portfolio .item-portfolio:last-child {
+  margin-right: 0px;
+}
+.main-my-work {
+  width: 1200px;
+  margin: auto;
+  padding-left: 0px;
+  padding-right: 0px ;
+  list-style: none;
+  margin-top: 35px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.my-work {
+  width: 370px;
+  height: 400px;
+}
+.main-my-work .my-work {
+  margin-right: 30px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: none;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+/* .main-my-work .my-work:last-child { */
+  margin-right: 0px;
 }
 .my-project:hover,
 .my-project:focus {
