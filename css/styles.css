@@ -11,6 +11,7 @@ body {
 }
 .page-header {
   background-color: white;
+  border-bottom: 1px solid rgb(100, 96, 96);
 }
 .conteiner-header {
   display: flex;
@@ -135,14 +136,13 @@ body {
   background: url(../images/Header.png);
   width: 1600px;
   height: 600px;
-  margin: auto;
   text-align: center;
   margin-bottom: 94px;
   /* outline: 2px solid tomato; */
 }
 .hero-title {
+  margin-top: 0px;
   padding-top: 200px;
-  margin-bottom: 30px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
@@ -221,10 +221,10 @@ body {
   color: #757575;
 }
 .our-work-main {
-  margin-top: 200px;
+  margin-top: 94px;
 }
 .our-work {
-  margin: 0;
+  margin-top: 94px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
@@ -249,6 +249,7 @@ body {
   justify-content: space-between;
   list-style: none;
   /* outline: 2px solid tomato; */
+  margin-bottom: 0px;
   margin-left: 200px;
   margin-right: 200px;
   padding-left: 0px;
@@ -310,10 +311,10 @@ body {
   color: #757575;
 }
 .our-team-main {
-  margin-top: 200px;
+  margin-top: 94px;
 }
 .our-team {
-  margin: 0;
+  margin-top: 94px;
   background-color: #F5F4FA;
   height: 700px;
   padding-top: 50px;
@@ -338,7 +339,7 @@ body {
 }
 
 .our-client-main {
-  margin-top: 200px;
+  margin-top: 94px;
 }
 .our-client {
   width: 1200px;
@@ -398,15 +399,18 @@ body {
   margin-top: 90px;
 }
 .site-nav-portfolio {
-display: flex;
-list-style: none;
-width: 1000px;
-margin: auto;
+ padding-left: 0px;
+ display: flex;
+ list-style: none;
+ padding-top: 93px;
+ padding-bottom: 50px;
+ justify-content: center;
+ margin: 0px;
 }
 .site-nav-portfolio .item-portfolio {
   margin-right: 10px;
   border-radius: 4px;
-  background-color: #2196f3;
+  background-color: #F5F4FA;
   padding: 6px 22px;
   font-family: "Roboto";
   font-style: normal;
@@ -423,11 +427,10 @@ margin: auto;
 }
 .main-my-work {
   width: 1170px;
-  height: 1360px;
+  height: 1300px;
   margin: auto;
   padding-left: 0px;
   list-style: none;
-  margin-top: 35px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -484,7 +487,7 @@ margin: auto;
   background-color: #2f303a;
 }
 .footerDiv {
-  margin-top: 100px;
+  margin-top: 70px;
   display: flex;
 }
 .footer-one {
