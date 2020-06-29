@@ -167,7 +167,7 @@ body {
   background-color: #2196f3;
   padding: 10px 34px;
 }
-.to-order-service a:hover,
+.to-order-service apage:hover,
 .to-order-service a:focus {
   color: var(--hover-focus-color);
 }
@@ -483,7 +483,7 @@ body {
 .footer {
   margin: auto;
   height: 250px;
-  width: 1600px;
+  /*width: 1600px;*/
   background-color: #2f303a;
 }
 .footerDiv {
